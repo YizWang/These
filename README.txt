@@ -29,21 +29,13 @@ Le fichier est composé de 11 colonnes: Candidat1, pattron de candidat1, fréque
 7. clean_pos.csv (12604 paires)
 C'est la sortie de script "clean_pos.py" dans laquelle, les paires où le mot partagé dans les deux candidats MWT n'a pas la même partie du discours sont identifiées et se déclacent à la fin du fichier.
 
-8. pos_clean.csv (12604 paires)
+8. pos_cleaned.csv (12604 paires)
 Comme il y a l'erreur d'éttiquetage de treetagger, on a décidé de garder les paires où le mot partagé dans les deux candidats MWT n'a pas la même partie du discours
 
-8. inter_anti.csv (80 paires)
-Les paires reliées par ANTI composées de deux MWT dont le status de terme est évalué par trois ressources terminologiques externes: IATE, TERMIUM PLUS, et LDG.
+8. annotation.csv (231 paires)
+les données annotées manuellement
 Le fichier est composé de 10 colonnes : index du couple, index du terme1, terme1, index du terme2, terme2, dépendance1, dépendance2, relation inférée, annotation sur la préservation, annotation sur la validité.
 
-
-9. inter_qsyn.csv (100 paires)
-Les paires reliées par QSYN composées de deux MWT dont le status de terme est évalué par trois ressources terminologiques externes: IATE, TERMIUM PLUS, et LDG.
-Le fichier est composé de 10 colonnes : index du couple, index du terme1, terme1, index du terme2, terme2, dépendance1, dépendance2, relation inférée, annotation sur la préservation, annotation sur la validité.
-
-10. inter_hyp.csv (51 paires)
-Les paires reliées par QSYN composées de deux MWT dont le status de terme est évalué par trois ressources terminologiques externes: IATE, TERMIUM PLUS, et LDG.
-Le fichier est composé de 10 colonnes : index du couple, index du terme1, terme1, index du terme2, terme2, dépendance1, dépendance2, relation inférée, annotation sur la préservation, annotation sur la validité.
 
 #############################################################################################
 Scripts
